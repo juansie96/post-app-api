@@ -1,0 +1,32 @@
+{
+  "name": "post-app-api",
+  "version": "1.0.0",
+  "description": "API for the React Posts App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansie96/post-app-api.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "mongodb",
+    "mongoose",
+    "backend"
+  ],
+  "author": "Juan Manuel Sierra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juansie96/post-app-api/issues"
+  },
+  "homepage": "https://github.com/juansie96/post-app-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  }
+}
