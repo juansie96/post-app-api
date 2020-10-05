@@ -4,7 +4,8 @@
   "description": "API for the React Posts App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,11 @@
   },
   "homepage": "https://github.com/juansie96/post-app-api#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.7"
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
   }
 }
